@@ -1,15 +1,17 @@
 .subheader {
   background-color: #272343;
+  padding: 6px 0;
   &-left {
     p {
       color: #fff;
       margin: 0;
+      font-size: 13px;
     }
   }
   &-right {
+    color: #fff;
     select{
       background-color: transparent;
-      color: #fff;
       border:unset;
     }
     &:focus{
@@ -18,9 +20,12 @@
     }
     option{
       color:black;
-
     }
   }
 
-  padding-bottom:2px;
+  select, a{
+    padding: 0px 16px;
+    color: #fff;
+    font-size: 13px;
+  }
 }
