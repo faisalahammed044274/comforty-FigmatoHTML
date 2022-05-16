@@ -1,0 +1,26 @@
+.subheader {
+  background-color: #272343;
+  &-left {
+    p {
+      color: #fff;
+      margin: 0;
+    }
+  }
+  &-right {
+    select{
+      background-color: transparent;
+      color: #fff;
+      border:unset;
+    }
+    &:focus{
+      border:unset;
+      outline:unset;
+    }
+    option{
+      color:black;
+
+    }
+  }
+
+  padding-bottom:2px;
+}
