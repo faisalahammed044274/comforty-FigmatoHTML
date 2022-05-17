@@ -10,22 +10,70 @@
   }
   &-right {
     color: #fff;
-    select{
+    select {
       background-color: transparent;
-      border:unset;
+      border: unset;
     }
-    &:focus{
-      border:unset;
-      outline:unset;
+    &:focus {
+      border: unset;
+      outline: unset;
     }
-    option{
-      color:black;
+    option {
+      color: black;
     }
   }
 
-  select, a{
+  select,
+  a {
     padding: 0px 16px;
     color: #fff;
     font-size: 13px;
+  }
+}
+
+.mainheader {
+  background-color: #f0f2f3;
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    .search-input {
+      position: relative;
+      input {
+        padding: 12px 16px;
+        border-radius: 5px;
+        padding-right: 40px;
+        border: 0;
+        font-size: 16px;
+        text-transform: capitalize;
+        box-sizing: border-box;
+      }
+      svg {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+      }
+    }
+    .header-action{
+      a{
+        padding: 12px 16px;
+        border-radius: 8px;
+        background-color: #fff;
+        margin-left: 12px;
+        justify-content: center;
+       
+        align-items: center;
+      }
+      span{
+        padding: 4px;
+        background-color: #11728f;
+        color: #fff;
+        font-size: 12px;
+
+      }
+    }
   }
 }
