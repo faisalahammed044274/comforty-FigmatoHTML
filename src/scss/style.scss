@@ -1,35 +1,32 @@
 //abstracts
-@import './abstracts/variables';
-@import './abstracts/mixins';
-
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
 
 //vendor
 // @import './bootstrap.scss';
 
 //Base
-@import './base/typograhy';
-@import './base/reset';
+@import "./base/typograhy";
+@import "./base/reset";
 
 //layout
-@import './layout/navigation';
-@import './layout/grid';
-@import './layout/header';
-@import './layout/footer';
-@import './layout/sidebar';
-@import './layout/forms';
+@import "./layout/navigation";
+@import "./layout/grid";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/sidebar";
+@import "./layout/forms";
 
 //components
-@import './components/buttons';
-@import './components/carousel';
-@import './components/cover';
-@import './components/dropdown';
+@import "./components/buttons";
+@import "./components/carousel";
+@import "./components/cover";
+@import "./components/dropdown";
 
 //pages
-@import './pages/home';
-@import './pages/contact';
+@import "./pages/home";
+@import "./pages/contact";
 
 //themes
 // @import './theme';
 // @import './admin';
-
-
