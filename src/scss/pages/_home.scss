@@ -10,11 +10,45 @@
 
     .slider-arrows {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0px;
       width: 100%;
       display: flex;
       justify-content: space-between;
+    }
+    .banner-slider-content{
+      align-items: center;
+      margin-left: 80px;
+    }
+    .banner-slider-left{
+      .subtitle{
+        font-size: 14px;
+        font-weight: 300;
+        color: $primary;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      h1{
+        font-size: 68px;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 24px;
+      }
+      a{
+        background-color: $color;
+        color: #fff;
+        padding: 8px;
+        border-radius: 5px;
+        &:hover{
+          color: rgb(190, 229, 190);
+        svg:hover{
+          transform: translateX(3px);
+        }
+        }
+      }
+      
     }
   }
 }
