@@ -15,7 +15,7 @@ nav {
       font-weight: 600;
       color: $primary;
       margin-right: 150px;
-
+      transition: all .3s ease-in-out;
     &:hover{
       color: #fff;
       background-color: $color;

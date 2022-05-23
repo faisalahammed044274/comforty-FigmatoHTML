@@ -69,9 +69,9 @@
         justify-content: center;
         align-items: center;
         width: max-content;
-
+        transition: all 1s ease-in-out;
         &:hover {
-          background-color: #007580;
+          background-color: #029fae;
           color: #fff;
         }
         &.cart {
@@ -83,12 +83,13 @@
             height: 20px;
             width: 20px;
             border-radius: 50%;
-            background-color: $color;
+            background-color: #029fae;
             color: #fff;
             font-size: 10px;
             text-align: center;
             line-height: 20px;
             margin-left: 12px;
+            transition: all 0.3s ease-in-out;
           }
           &:hover {
             .count {
