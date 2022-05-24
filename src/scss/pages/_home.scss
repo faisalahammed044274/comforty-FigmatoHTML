@@ -1,9 +1,13 @@
 .banner {
   background-color: $lightshade;
   width: calc(100vw - 180px);
+  height: 850px;
   margin: 0 auto;
   border-bottom-left-radius: 48px;
   border-bottom-right-radius: 48px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   &-wrapper {
     position: relative;
 
@@ -55,7 +59,7 @@
         flex-direction: column;
       }
       img {
-        margin-top: 10%;
+        margin-top: 20%;
       }
       .amount {
         font-size: 2rem;
