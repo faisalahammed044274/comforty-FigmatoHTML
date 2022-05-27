@@ -1,5 +1,6 @@
 .product-item {
   transition: all .3s ease;
+  margin-bottom: 50px;
   &:hover{
     box-shadow: 0px 12px 18px 12px #16193212;
   }
@@ -73,4 +74,11 @@ justify-content: space-around;
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+  h3{
+    font-size: 32px;
+  }
+}
+
+.sales{
+  background-color: $sale-color;
 }
