@@ -1,3 +1,39 @@
-.top-categories{
-    margin-top: 30px;
+.top-categories {
+  margin-top: 80px;
+}
+
+.category-item {
+  height: 424px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: all .3s ease-in-out;
+  .image img {
+    height: 424px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .content {
+    background-color: (#000000a6);
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    h3 {
+      font-size: 20px;
+      color: #fff;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    small {
+      font-size: 14px;
+      color: #fff;
+    }
+  }
+  &:hover {
+    box-shadow: 0px 16px 18px 0px #12131f12;
+  }
 }

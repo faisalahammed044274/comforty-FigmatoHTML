@@ -47,7 +47,6 @@
   &-left:hover{
     background-color: $color;
     color: #fff;
-    box-shadow: 0px 2px 8px 0px #16193212;
     svg{
       transform: translateX(-2px);
     }
@@ -55,7 +54,6 @@
   &-right:hover{
     background-color: $color;
     color: #fff;
-    box-shadow: 0px 2px 8px 0px #16193212;
     svg{
       transform: translateX(2px);
     }
